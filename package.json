@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "16.3.2"
+  },
+  "devDependencies": {
+    "flow-bin": "0.46.0"
+  },
+  "scripts": {
+    "flow": "flow version && flow",
+    "flow-new": "./directory-that-uses-the-new-flow-version/node_modules/.bin/flow version && ./directory-that-uses-the-new-flow-version/node_modules/.bin/flow check ./directory-that-uses-the-new-flow-version"
+  }
+}

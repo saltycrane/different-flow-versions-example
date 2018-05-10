@@ -1,0 +1,8 @@
+{
+  "//": [
+    "This package.json file is only used for running a different version of Flow"
+  ],
+  "devDependencies": {
+    "flow-bin": "0.72.0"
+  }
+}
